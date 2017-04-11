@@ -1,5 +1,5 @@
-<svg height="2014" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2014" fill="#555" width="720"></rect>
+<svg height="1134" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1134" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26"></tspan>
 <tspan x="10" y="42">&gt; npmtest-grunt-contrib-jshint@0.0.1 test /home/travis/build/npmtest/node-npmtest-grunt-contrib-\</tspan>
@@ -7,123 +7,68 @@
 <tspan x="10" y="74">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="90"></tspan>
 <tspan x="10" y="106"></tspan>
-<tspan x="10" y="122">[MODE_BUILD=npmTest] - 2017-04-11T07:26:38Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
+<tspan x="10" y="122">[MODE_BUILD=npmTest] - 2017-04-11T07:28:30Z - npm-testing /home/travis/build/npmtest/node-npmtes\</tspan>
 <tspan x="10" y="138">t-grunt-contrib-jshint</tspan>
 <tspan x="10" y="154"></tspan>
 <tspan x="10" y="170">merging file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/build/test-repor\</tspan>
 <tspan x="10" y="186">t.json to test-report</tspan>
-<tspan x="10" y="202">&gt; server listening on http-port 41021</tspan>
+<tspan x="10" y="202">&gt; server listening on http-port 45395</tspan>
 <tspan x="10" y="218">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="234">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="250">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="266"></tspan>
 <tspan x="10" y="282">browserTest - created electron entry-page /home/travis/build/npmtest/node-npmtest-grunt-contrib-\</tspan>
-<tspan x="10" y="298">jshint/tmp/electron.15b5be846350.53d9a1eb2176b.html</tspan>
+<tspan x="10" y="298">jshint/tmp/electron.15b5be9fbe50.abe86e56618ae.html</tspan>
 <tspan x="10" y="314"></tspan>
 <tspan x="10" y="330">[node test-case 4 of 6 passed] - testCase_buildApidoc_default</tspan>
 <tspan x="10" y="346">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="362">merging file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/build/test-repor\</tspan>
 <tspan x="10" y="378">t.json to test-report</tspan>
 <tspan x="10" y="394">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="410">[5127:0411/072641:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="426">[5127:0411/072641:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="442">[5143:0411/072641:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="410">[6112:0411/072833:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="426">[6112:0411/072833:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="442">[6128:0411/072833:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="458">in process gpu-process. </tspan>
-<tspan x="10" y="474">[5127:0411/072641:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="490">&gt; </tspan>
-<tspan x="10" y="506">browserTest - opened url http://127.0.0.1:41021?modeTest=1</tspan>
+<tspan x="10" y="474">[6112:0411/072833:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="490"></tspan>
+<tspan x="10" y="506">browserTest - opened url http://127.0.0.1:45395?modeTest=1</tspan>
 <tspan x="10" y="522"></tspan>
-<tspan x="10" y="538">server listening on http-port 45816</tspan>
-<tspan x="10" y="554">events.js:160</tspan>
-<tspan x="10" y="570">      throw er; // Unhandled 'error' event</tspan>
-<tspan x="10" y="586">      ^</tspan>
-<tspan x="10" y="602"></tspan>
-<tspan x="10" y="618">Error: listen EADDRINUSE :::45816</tspan>
-<tspan x="10" y="634">    at Object.exports._errnoException (util.js:1018:11)</tspan>
-<tspan x="10" y="650">    at exports._exceptionWithHostPort (util.js:1041:20)</tspan>
-<tspan x="10" y="666">    at Server._listen2 (net.js:1262:14)</tspan>
-<tspan x="10" y="682">    at listen (net.js:1298:10)</tspan>
-<tspan x="10" y="698">    at Server.listen (net.js:1394:5)</tspan>
-<tspan x="10" y="714">    at Object.local.testRunServer (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/\</tspan>
-<tspan x="10" y="730">tmp/assets.app.js:15050:47)</tspan>
-<tspan x="10" y="746">    at /home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/assets.app.js:20397:15</tspan>
-<tspan x="10" y="762">    at Object.&lt;anonymous&gt; (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/asse\</tspan>
-<tspan x="10" y="778">ts.app.js:20400:2)</tspan>
-<tspan x="10" y="794">    at Module._compile (module.js:570:32)</tspan>
-<tspan x="10" y="810">    at Object.Module._extensions..js (module.js:579:10)</tspan>
-<tspan x="10" y="826">Error: 1</tspan>
-<tspan x="10" y="842">    at Object.local.assert (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_mo\</tspan>
-<tspan x="10" y="858">dules/utility2/lib.utility2.js:1946:19)</tspan>
-<tspan x="10" y="874">    at ChildProcess.&lt;anonymous&gt; (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/no\</tspan>
-<tspan x="10" y="890">de_modules/utility2/lib.utility2.js:2716:31)</tspan>
-<tspan x="10" y="906">    at ChildProcess.g (events.js:291:16)</tspan>
-<tspan x="10" y="922">    at emitTwo (events.js:111:20)</tspan>
-<tspan x="10" y="938">    at ChildProcess.emit (events.js:191:7)</tspan>
-<tspan x="10" y="954">    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)</tspan>
-<tspan x="10" y="970"></tspan>
-<tspan x="10" y="986">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-grunt-contrib\</tspan>
-<tspan x="10" y="1002">-jshint/tmp/build/screenCapture.npmTest.browser.%2F.png</tspan>
-<tspan x="10" y="1018"></tspan>
-<tspan x="10" y="1034">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-grunt-contrib\</tspan>
-<tspan x="10" y="1050">-jshint/tmp/build/screenCapture.npmTest.browser.%2F.html</tspan>
-<tspan x="10" y="1066"></tspan>
-<tspan x="10" y="1082">browserTest - exit-code 0 - http://127.0.0.1:41021?modeTest=1</tspan>
+<tspan x="10" y="538">&gt; server listening on http-port 36000</tspan>
+<tspan x="10" y="554">[node test-case 5 of 6 passed] - testCase_buildApp_default</tspan>
+<tspan x="10" y="570"></tspan>
+<tspan x="10" y="586">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-grunt-contrib\</tspan>
+<tspan x="10" y="602">-jshint/tmp/build/screenCapture.npmTest.browser.%2F.png</tspan>
+<tspan x="10" y="618"></tspan>
+<tspan x="10" y="634">browserTest - created screenCapture file:///home/travis/build/npmtest/node-npmtest-grunt-contrib\</tspan>
+<tspan x="10" y="650">-jshint/tmp/build/screenCapture.npmTest.browser.%2F.html</tspan>
+<tspan x="10" y="666"></tspan>
+<tspan x="10" y="682">browserTest - exit-code 0 - http://127.0.0.1:45395?modeTest=1</tspan>
+<tspan x="10" y="698"></tspan>
+<tspan x="10" y="714"></tspan>
+<tspan x="10" y="730">browserTest - merging test-report from /home/travis/build/npmtest/node-npmtest-grunt-contrib-jsh\</tspan>
+<tspan x="10" y="746">int/tmp/test-report.npmTest.browser.%2F.json</tspan>
+<tspan x="10" y="762"></tspan>
+<tspan x="10" y="778">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
+<tspan x="10" y="794">merging file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/build/test-repor\</tspan>
+<tspan x="10" y="810">t.json to test-report</tspan>
+<tspan x="10" y="826"></tspan>
+<tspan x="10" y="842">-------------------------------------------------------</tspan>
+<tspan x="10" y="858">| test-report - buildCustomOrg - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
+<tspan x="10" y="874">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T07:27:31.6\</tspan>
+<tspan x="10" y="890">63Z</tspan>
+<tspan x="10" y="906">|   77563 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="922">-------------------------------------------------------</tspan>
+<tspan x="10" y="938">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T07:27:29.878Z</tspan>
+<tspan x="10" y="954">|   16271 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="970">-------------------------------------------------------</tspan>
+<tspan x="10" y="986"></tspan>
+<tspan x="10" y="1002">created test-report file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/buil\</tspan>
+<tspan x="10" y="1018">d/test-report.html</tspan>
+<tspan x="10" y="1034"></tspan>
+<tspan x="10" y="1050"></tspan>
+<tspan x="10" y="1066">npmTest - 0 failed tests</tspan>
+<tspan x="10" y="1082"></tspan>
 <tspan x="10" y="1098"></tspan>
-<tspan x="10" y="1114"></tspan>
-<tspan x="10" y="1130">browserTest - merging test-report from /home/travis/build/npmtest/node-npmtest-grunt-contrib-jsh\</tspan>
-<tspan x="10" y="1146">int/tmp/test-report.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="1162"></tspan>
-<tspan x="10" y="1178">[node test-case 5 of 6 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="1194"></tspan>
-<tspan x="10" y="1210">testCase testCase_buildApp_default failed</tspan>
-<tspan x="10" y="1226">onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
-<tspan x="10" y="1242">Error: onTimeout - timeout-error - 30000 ms - testCase_buildApp_default</tspan>
-<tspan x="10" y="1258">    at Timeout._onTimeout (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_mod\</tspan>
-<tspan x="10" y="1274">ules/utility2/lib.utility2.js:4217:25)</tspan>
-<tspan x="10" y="1290">    at ontimeout (timers.js:380:14)</tspan>
-<tspan x="10" y="1306">    at tryOnTimeout (timers.js:244:5)</tspan>
-<tspan x="10" y="1322">    at Timer.listOnTimeout (timers.js:214:5)</tspan>
-<tspan x="10" y="1338">Error</tspan>
-<tspan x="10" y="1354">    at Object.local.onTimeout (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node\</tspan>
-<tspan x="10" y="1370">_modules/utility2/lib.utility2.js:4214:29)</tspan>
-<tspan x="10" y="1386">    at /home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_modules/utility2/lib.ut\</tspan>
-<tspan x="10" y="1402">ility2.js:5516:38</tspan>
-<tspan x="10" y="1418">    at onEach2 (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_modules/utilit\</tspan>
-<tspan x="10" y="1434">y2/lib.utility2.js:4129:21)</tspan>
-<tspan x="10" y="1450">    at Object.local.onParallelList (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint\</tspan>
-<tspan x="10" y="1466">/node_modules/utility2/lib.utility2.js:4155:13)</tspan>
-<tspan x="10" y="1482">    at Object.local.testRunDefault (/home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint\</tspan>
-<tspan x="10" y="1498">/node_modules/utility2/lib.utility2.js:5471:19)</tspan>
-<tspan x="10" y="1514">    at /home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_modules/utility2/lib.ut\</tspan>
-<tspan x="10" y="1530">ility2.js:5406:35</tspan>
-<tspan x="10" y="1546">    at /home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_modules/utility2/lib.ut\</tspan>
-<tspan x="10" y="1562">ility2.js:4029:17</tspan>
-<tspan x="10" y="1578">    at /home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/node_modules/utility2/lib.ut\</tspan>
-<tspan x="10" y="1594">ility2.js:4882:29</tspan>
-<tspan x="10" y="1610">    at Array.forEach (native)</tspan>
-<tspan x="10" y="1626">[node test-case 6 of 6 failed] - testCase_buildApp_default</tspan>
-<tspan x="10" y="1642">merging file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/build/test-repor\</tspan>
-<tspan x="10" y="1658">t.json to test-report</tspan>
-<tspan x="10" y="1674"></tspan>
-<tspan x="10" y="1690">-------------------------------------------------------</tspan>
-<tspan x="10" y="1706">| test-report - buildCustomOrg - browser - / - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.3\</tspan>
-<tspan x="10" y="1722">6 (KHTML, like Gecko) Chrome/53.0.2785.143 Electron/1.4.15 Safari/537.36 - 2017-04-11T07:25:49.2\</tspan>
-<tspan x="10" y="1738">45Z</tspan>
-<tspan x="10" y="1754">|   81372 ms            1 failed        5 passed      |</tspan>
-<tspan x="10" y="1770">-------------------------------------------------------</tspan>
-<tspan x="10" y="1786">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T07:25:47.168Z</tspan>
-<tspan x="10" y="1802">|   16536 ms            0 failed        6 passed      |</tspan>
-<tspan x="10" y="1818">-------------------------------------------------------</tspan>
-<tspan x="10" y="1834"></tspan>
-<tspan x="10" y="1850">created test-report file:///home/travis/build/npmtest/node-npmtest-grunt-contrib-jshint/tmp/buil\</tspan>
-<tspan x="10" y="1866">d/test-report.html</tspan>
-<tspan x="10" y="1882"></tspan>
-<tspan x="10" y="1898"></tspan>
-<tspan x="10" y="1914">npmTest - 1 failed tests</tspan>
-<tspan x="10" y="1930"></tspan>
-<tspan x="10" y="1946"></tspan>
-<tspan x="10" y="1962">[MODE_BUILD=npmTest] - 2017-04-11T07:27:12Z - EXIT_CODE - 1</tspan>
-<tspan x="10" y="1978"></tspan>
-<tspan x="10" y="1994">npm ERR! Test failed.  See above for more details.</tspan>
+<tspan x="10" y="1114">[MODE_BUILD=npmTest] - 2017-04-11T07:28:50Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
