@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Code coverage report for node-npmtest-grunt-contrib-jshint/grunt-contrib-jshint/tasks/jshint.js</title>
+<html lang="en"><head>
+    <title>Code coverage report for node-npmtest-grunt-contrib-jshint/node_modules/grunt-contrib-jshint/tasks/jshint.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,7 +192,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-grunt-contrib-jshint">npmtest-grunt-contrib-jshint (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-grunt-contrib-jshint/grunt-contrib-jshint/tasks/jshint.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-grunt-contrib-jshint/node_modules/grunt-contrib-jshint/tasks/jshint.js</span></h1>
     <h2>
         
         Statements: <span class="metric">2.86% <small>(1 / 35)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -210,11 +208,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-grunt-contrib-jshint/grunt-contrib-jshint/tasks/</a> &#187; jshint.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-grunt-contrib-jshint/node_modules/grunt-contrib-jshint/tasks/</a> » jshint.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tr><td class="line-count">1
+<tbody><tr><td class="line-count">1
 2
 3
 4
@@ -390,84 +388,85 @@
 &nbsp;
 'use strict';
 &nbsp;
-module.exports = <span class="fstat-no" title="function not covered" >function(grunt) {</span>
+module.exports = <span class="fstat-no" title="function not covered">function(grunt) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  var path = require('path');</span>
-<span class="cstat-no" title="statement not covered" >  var hooker = require('hooker');</span>
-<span class="cstat-no" title="statement not covered" >  var jshint = require('./lib/jshint').init(grunt);</span>
+<span class="cstat-no" title="statement not covered">  var path = require('path');</span>
+<span class="cstat-no" title="statement not covered">  var hooker = require('hooker');</span>
+<span class="cstat-no" title="statement not covered">  var jshint = require('./lib/jshint').init(grunt);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  grunt.registerMultiTask('jshint', 'Validate files with JSHint.', <span class="fstat-no" title="function not covered" >function() {</span></span>
-<span class="cstat-no" title="statement not covered" >    var done = this.async();</span>
+<span class="cstat-no" title="statement not covered">  grunt.registerMultiTask('jshint', 'Validate files with JSHint.', <span class="fstat-no" title="function not covered">function() {</span></span>
+<span class="cstat-no" title="statement not covered">    var done = this.async();</span>
 &nbsp;
     // Merge task-specific and/or target-specific options with these defaults.
-<span class="cstat-no" title="statement not covered" >    var options = this.options({</span>
+<span class="cstat-no" title="statement not covered">    var options = this.options({</span>
       force: false,
       reporter: null,
       reporterOutputRelative: true
     });
 &nbsp;
     // Report JSHint errors but dont fail the task
-<span class="cstat-no" title="statement not covered" >    var force = options.force;</span>
-<span class="cstat-no" title="statement not covered" >    delete options.force;</span>
+<span class="cstat-no" title="statement not covered">    var force = options.force;</span>
+<span class="cstat-no" title="statement not covered">    delete options.force;</span>
 &nbsp;
     // Whether to output the report to a file
-<span class="cstat-no" title="statement not covered" >    var reporterOutput = options.reporterOutput;</span>
+<span class="cstat-no" title="statement not covered">    var reporterOutput = options.reporterOutput;</span>
 &nbsp;
     // Hook into stdout to capture report
-<span class="cstat-no" title="statement not covered" >    var output = '';</span>
-<span class="cstat-no" title="statement not covered" >    if (reporterOutput) {</span>
-<span class="cstat-no" title="statement not covered" >      hooker.hook(process.stdout, 'write', {</span>
-        pre: <span class="fstat-no" title="function not covered" >function(out) {</span>
-<span class="cstat-no" title="statement not covered" >          output += out;</span>
-<span class="cstat-no" title="statement not covered" >          return hooker.preempt();</span>
+<span class="cstat-no" title="statement not covered">    var output = '';</span>
+<span class="cstat-no" title="statement not covered">    if (reporterOutput) {</span>
+<span class="cstat-no" title="statement not covered">      hooker.hook(process.stdout, 'write', {</span>
+        pre: <span class="fstat-no" title="function not covered">function(out) {</span>
+<span class="cstat-no" title="statement not covered">          output += out;</span>
+<span class="cstat-no" title="statement not covered">          return hooker.preempt();</span>
         }
       });
     }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    jshint.lint(this.filesSrc, options, <span class="fstat-no" title="function not covered" >function(results, data) {</span></span>
-<span class="cstat-no" title="statement not covered" >      var failed = 0;</span>
-<span class="cstat-no" title="statement not covered" >      if (results.length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered">    jshint.lint(this.filesSrc, options, <span class="fstat-no" title="function not covered">function(results, data) {</span></span>
+<span class="cstat-no" title="statement not covered">      var failed = 0;</span>
+<span class="cstat-no" title="statement not covered">      if (results.length &gt; 0) {</span>
         // Fail task if errors were logged except if force was set.
-<span class="cstat-no" title="statement not covered" >        failed = force;</span>
-<span class="cstat-no" title="statement not covered" >        if (jshint.usingGruntReporter === true) {</span>
+<span class="cstat-no" title="statement not covered">        failed = force;</span>
+<span class="cstat-no" title="statement not covered">        if (jshint.usingGruntReporter === true) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >          var numErrors = grunt.util._.reduce(results, <span class="fstat-no" title="function not covered" >function(memo, result) {</span></span>
-<span class="cstat-no" title="statement not covered" >            return memo + (result.error ? 1 : 0);</span>
+<span class="cstat-no" title="statement not covered">          var numErrors = grunt.util._.reduce(results, <span class="fstat-no" title="function not covered">function(memo, result) {</span></span>
+<span class="cstat-no" title="statement not covered">            return memo + (result.error ? 1 : 0);</span>
           }, 0);
 &nbsp;
-<span class="cstat-no" title="statement not covered" >          var numFiles = data.length;</span>
-<span class="cstat-no" title="statement not covered" >          grunt.log.error(numErrors + ' ' + grunt.util.pluralize(numErrors, 'error/errors') + ' in ' +</span>
+<span class="cstat-no" title="statement not covered">          var numFiles = data.length;</span>
+<span class="cstat-no" title="statement not covered">          grunt.log.error(numErrors + ' ' + grunt.util.pluralize(numErrors, 'error/errors') + ' in ' +</span>
                           numFiles + ' ' + grunt.util.pluralize(numFiles, 'file/files'));
         }
       } else {
-<span class="cstat-no" title="statement not covered" >        if (jshint.usingGruntReporter === true &amp;&amp; data.length &gt; 0) {</span>
-<span class="cstat-no" title="statement not covered" >          grunt.log.ok(data.length + ' ' + grunt.util.pluralize(data.length, 'file/files') + ' lint free.');</span>
+<span class="cstat-no" title="statement not covered">        if (jshint.usingGruntReporter === true &amp;&amp; data.length &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered">          grunt.log.ok(data.length + ' ' + grunt.util.pluralize(data.length, 'file/files') + ' lint free.');</span>
         }
       }
 &nbsp;
       // Write the output of the reporter if wanted
-<span class="cstat-no" title="statement not covered" >      if (reporterOutput) {</span>
-<span class="cstat-no" title="statement not covered" >        hooker.unhook(process.stdout, 'write');</span>
-<span class="cstat-no" title="statement not covered" >        reporterOutput = grunt.template.process(reporterOutput);</span>
-<span class="cstat-no" title="statement not covered" >        var destDir = path.dirname(reporterOutput);</span>
-<span class="cstat-no" title="statement not covered" >        if (!grunt.file.exists(destDir)) {</span>
-<span class="cstat-no" title="statement not covered" >          grunt.file.mkdir(destDir);</span>
+<span class="cstat-no" title="statement not covered">      if (reporterOutput) {</span>
+<span class="cstat-no" title="statement not covered">        hooker.unhook(process.stdout, 'write');</span>
+<span class="cstat-no" title="statement not covered">        reporterOutput = grunt.template.process(reporterOutput);</span>
+<span class="cstat-no" title="statement not covered">        var destDir = path.dirname(reporterOutput);</span>
+<span class="cstat-no" title="statement not covered">        if (!grunt.file.exists(destDir)) {</span>
+<span class="cstat-no" title="statement not covered">          grunt.file.mkdir(destDir);</span>
         }
-<span class="cstat-no" title="statement not covered" >        grunt.file.write(reporterOutput, output);</span>
-<span class="cstat-no" title="statement not covered" >        grunt.log.ok('Report "' + reporterOutput + '" created.');</span>
+<span class="cstat-no" title="statement not covered">        grunt.file.write(reporterOutput, output);</span>
+<span class="cstat-no" title="statement not covered">        grunt.log.ok('Report "' + reporterOutput + '" created.');</span>
       }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >      done(failed);</span>
+<span class="cstat-no" title="statement not covered">      done(failed);</span>
     });
   });
 &nbsp;
 };
 &nbsp;
 &nbsp;</pre></td></tr>
-</table></pre>
+</tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 07:27:47 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Sun Apr 16 2017 08:56:32 GMT+0000 (UTC)</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
