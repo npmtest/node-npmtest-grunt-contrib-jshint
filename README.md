@@ -1,7 +1,7 @@
 # test coverage for  [grunt-contrib-jshint (v1.1.0)](https://github.com/gruntjs/grunt-contrib-jshint#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-contrib-jshint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-contrib-jshint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-contrib-jshint.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-contrib-jshint)
 #### Validate files with JSHint
 
-[![NPM](https://nodei.co/npm/grunt-contrib-jshint.png?downloads=true)](https://www.npmjs.com/package/grunt-contrib-jshint)
+[![NPM](https://nodei.co/npm/grunt-contrib-jshint.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-contrib-jshint)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-grunt-contrib-jshint/tree/alpha)|
 |--:|:--|
@@ -9,11 +9,11 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-contrib-jshint/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/coverage.html/index.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-grunt-contrib-jshint%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/test-report.html)
+[![test-report](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/test-report.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-contrib-jshint/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-grunt-contrib-jshint%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-contrib-jshint/build/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-grunt-contrib-jshint/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-grunt-contrib-jshint/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-grunt-contrib-jshint/build/screenCapture.npmPackageListing.svg)
 
@@ -131,28 +131,22 @@
     "main": "tasks/jshint.js",
     "maintainers": [
         {
-            "name": "cowboy",
-            "email": "cowboy@rj3.net"
+            "name": "cowboy"
         },
         {
-            "name": "tkellen",
-            "email": "tyler@sleekcode.net"
+            "name": "tkellen"
         },
         {
-            "name": "shama",
-            "email": "kyle@dontkry.com"
+            "name": "shama"
         },
         {
-            "name": "vladikoff",
-            "email": "vlad@vladikoff.com"
+            "name": "vladikoff"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         },
         {
-            "name": "jmeas",
-            "email": "jellyes2@gmail.com"
+            "name": "jmeas"
         }
     ],
     "name": "grunt-contrib-jshint",
@@ -160,7 +154,6 @@
     "peerDependencies": {
         "grunt": ">=0.4.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/gruntjs/grunt-contrib-jshint.git"
